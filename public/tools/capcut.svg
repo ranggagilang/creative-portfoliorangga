@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447 447" role="img" aria-label="CapCut logo">
+<g fill="#000">
+<!-- upper horizontal ribbon and rounded left turn -->
+<path d="M109 106.5H289.5C307.8 106.5 322.5 121.2 322.5 139.5V150.8L298.5 163.8V149.2H106.5L202.5 199.8L298.5 149.2H322.5V166.5L202.5 230L79.5 183.2V136C79.5 119.7 92.7 106.5 109 106.5Z"/>
+<!-- lower ribbon, diagonal crossing and lower rounded return -->
+<path d="M79.5 263.8L202.5 199.8L378 108.2V155.5L247.2 225.8L378 291.3V339.5L202.5 246.8L106.5 296.5H298.5V282.2L322.5 295.5V311C322.5 327.3 307.8 340.5 291.5 340.5H109C92.7 340.5 79.5 327.3 79.5 311V263.8Z"/>
+<!-- sharpen the crossing silhouette and clear inner ribbon windows -->
+</g></svg>

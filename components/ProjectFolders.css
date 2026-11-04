@@ -1,0 +1,15 @@
+/* Extra depth on the existing folder artwork; no new icon packages. */
+.pc-folder { transform-style: preserve-3d; transition: transform .6s cubic-bezier(.22,1,.36,1); text-decoration: none; }
+.pc-folderBack { box-shadow: 0 12px 0 -5px color-mix(in srgb, var(--folder), #021d35 35%), 0 24px 35px -16px #0008; transform: translateZ(-12px); }
+.pc-folderFront { border: 1px solid #ffffff55; background: linear-gradient(155deg, #ffffff24, transparent 48%), var(--folder); box-shadow: inset 0 2px 1px #ffffff80, inset 0 -5px 8px #00000012, 0 7px 0 -1px color-mix(in srgb, var(--folder), #06253a 25%), 0 25px 38px -12px #00132980; transform: rotateX(-7deg) translateZ(18px); }
+.pc-art { filter: drop-shadow(0 12px 8px #00162a35); }
+@media (hover:hover) and (pointer:fine) {
+  .pc-page .pc-folder:hover { transform: translateY(-7px) rotateY(-5deg); }
+  .pc-page .pc-folder:hover .pc-folderFront { transform: rotateX(-19deg) translateZ(28px); }
+  .pc-page .pc-folder:hover .pc-art { transform: translateY(-30px) translateZ(38px) rotate(-2deg); }
+}
+.pc-opening .pc-folder { pointer-events: none; }
+@media (prefers-reduced-motion:reduce) {
+  .pc-page .pc-folder, .pc-page .pc-folder * { transition: none !important; }
+  .pc-page .pc-folder:hover { transform: none; }
+}
