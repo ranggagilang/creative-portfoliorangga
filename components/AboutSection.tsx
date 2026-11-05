@@ -315,7 +315,7 @@ function Intro() {
       </p>
 
       <p className="mt-3 max-w-xl text-[13px] leading-relaxed text-zinc-700 lg:[@media(max-height:700px)]:hidden">
-        Saya pengembang perangkat lunak dan kreator visual asal Bandung. Saya menggabungkan{" "}
+        Saya pengembang perangkat lunak dan kreator visual asal Banten. Saya menggabungkan{" "}
         <b className="text-zinc-900">logika rekayasa IT</b> (web &amp; mobile) dengan{" "}
         <b className="text-zinc-900">sentuhan estetika desain</b>: fotografi studio, retouching, dan UI/UX.
       </p>
